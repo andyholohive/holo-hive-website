@@ -5,7 +5,6 @@ import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import SectionHeader from '../components/SectionHeader';
 
 export default function ApplyPage() {
   const heroRef = useRef(null);
@@ -43,7 +42,7 @@ export default function ApplyPage() {
             animate={heroInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
             transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
           >
-            Tell us about your project and upcoming milestone. We'll get back to you within 24 hours.
+            Tell us about your project and upcoming milestone. We&apos;ll get back to you within 24 hours.
           </motion.p>
 
           <motion.div

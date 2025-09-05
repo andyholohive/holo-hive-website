@@ -111,7 +111,7 @@ export default function AboutPage() {
             animate={heroInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
             transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
           >
-            The team behind Web3's most successful community transformations
+            The team behind Web3&apos;s most successful community transformations
           </motion.p>
         </div>
       </section>
@@ -133,13 +133,13 @@ export default function AboutPage() {
               />
               <div className="space-y-6 text-gray-300">
                 <p className="text-lg leading-relaxed">
-                  After spending years in the trenches of Web3 growth - from DeFi protocols to NFT projects - we recognized a pattern. The best technology doesn't always win. The best community does.
+                  After spending years in the trenches of Web3 growth - from DeFi protocols to NFT projects - we recognized a pattern. The best technology doesn&apos;t always win. The best community does.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  Most agencies focus on vanity metrics and short-term hype. We focus on building authentic, engaged communities that drive real business outcomes. That's the Holo Hive difference.
+                  Most agencies focus on vanity metrics and short-term hype. We focus on building authentic, engaged communities that drive real business outcomes. That&apos;s the Holo Hive difference.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  Today, we're the trusted growth partner for some of Web3's most successful projects, having generated over $2.1B in value for our clients.
+                  Today, we&apos;re the trusted growth partner for some of Web3&apos;s most successful projects, having generated over $2.1B in value for our clients.
                 </p>
               </div>
             </motion.div>

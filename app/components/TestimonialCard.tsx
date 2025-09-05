@@ -27,7 +27,7 @@ export default function TestimonialCard({
       transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
     >
       <blockquote className="text-gray-300 mb-6 text-lg leading-relaxed">
-        "{quote}"
+        &quot;{quote}&quot;
       </blockquote>
       
       <div className="flex items-center">
