@@ -67,7 +67,7 @@ export default function Navigation() {
             {/* CTA Button */}
             <div className="hidden md:flex items-center">
               <Link 
-                href="/apply" 
+                href="/program" 
                 className="bg-[#3e8692] text-white px-5 py-2 rounded-lg font-semibold text-sm hover:bg-[#357a85] transition-all shadow-sm hover:shadow-md"
               >
                 APPLY NOW
@@ -119,7 +119,7 @@ export default function Navigation() {
                 About
               </Link>
               <Link 
-                href="/apply" 
+                href="/program" 
                 className="bg-[#3e8692] text-white px-5 py-2 rounded-lg font-semibold text-sm hover:bg-[#357a85] transition-all shadow-sm hover:shadow-md text-center mt-3"
               >
                 APPLY NOW
