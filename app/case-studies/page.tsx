@@ -85,7 +85,7 @@ export default function CaseStudiesPage() {
             title="Impact Across All Projects"
             subtitle="Combined metrics from our most successful partnerships"
             inView={metricsInView}
-            center
+            centered
           />
           <StatsGrid stats={overallStats} inView={metricsInView} />
         </div>
@@ -198,7 +198,7 @@ export default function CaseStudiesPage() {
             title="What Our Partners Say"
             subtitle="Testimonials from the teams we've helped scale to new heights"
             inView={testimonialsInView}
-            center
+            centered
           />
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <TestimonialCard

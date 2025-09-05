@@ -204,7 +204,7 @@ export default function AboutPage() {
             title="What Drives Us"
             subtitle="The principles that guide every decision and strategy we create"
             inView={valuesInView}
-            center
+            centered
           />
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -233,7 +233,7 @@ export default function AboutPage() {
             title="The Minds Behind the Magic"
             subtitle="A diverse team of Web3 natives, growth experts, and creative visionaries"
             inView={teamInView}
-            center
+            centered
           />
           
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">

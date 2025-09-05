@@ -365,7 +365,7 @@ export default function ProgramPage() {
             title="What You'll Experience"
             subtitle="Five pillars that transform your milestone into market momentum"
             inView={experienceInView}
-            center
+            centered
           />
           
           <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
@@ -456,7 +456,7 @@ export default function ProgramPage() {
             title="Inside the Amplification Program™"
             subtitle="Everything you need to transform your milestone into lasting market momentum"
             inView={programInView}
-            center
+            centered
           />
           
           {/* 3 Key Blocks with enhanced styling */}
