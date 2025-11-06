@@ -18,8 +18,8 @@ export default function Navigation() {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 px-4 sm:px-6 lg:px-8 pt-4">
-      <nav className={`mx-auto max-w-6xl rounded-2xl bg-[#0a0a0b]/90 backdrop-blur-md border border-gray-800/50 shadow-sm transition-all duration-300 ${
+    <div className="px-4 sm:px-6 lg:px-8 pt-4 bg-[#0a0a0b]">
+      <nav className={`mx-auto max-w-6xl rounded-2xl bg-[#0a0a0b] border border-gray-800/50 shadow-sm transition-all duration-300 ${
         scrolled ? 'py-2' : 'py-3'
       }`}>
         <div className="px-6">
